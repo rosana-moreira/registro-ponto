@@ -39,7 +39,7 @@ cd Registro-Ponto/server
 $ yarn
 
 # Execute a aplicação em modo de desenvolvimento
-$ yarn dev
+$ yarn dev:server
 
 # O servidor do back-end inciará na porta:3333 - acesse <http://localhost:3333>
 

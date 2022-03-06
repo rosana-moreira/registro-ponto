@@ -1,5 +1,5 @@
 # Registro de Ponto
-# Descrição do Projeto
+<h2>Descrição do Projeto</h2>
 <p align="center">
 Aplicação desenvolvida como projeto final do DTI-Desenvolve.
 </p>
@@ -7,7 +7,7 @@ Aplicação desenvolvida como projeto final do DTI-Desenvolve.
 <h1 align="center">
   <img alt="logo" title="#logo" src="./assets/git.png" />
 </h1>
-### Pré-requisitos
+<h2>Pré-requisitos</h2>
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). [React](https://pt-br.reactjs.org/).

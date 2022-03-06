@@ -84,8 +84,7 @@ const Dashboard: React.FC = () => {
       <Link to="/dashboard">
         <button onClick={handleExit}> Registrar</button>
       </Link>
-      <TotalHours/>
-
+      <TotalHours />
     </Container>
   );
 };

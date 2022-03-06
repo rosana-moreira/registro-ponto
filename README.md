@@ -28,6 +28,7 @@ $ yarn
 # Execute a aplicação em modo de desenvolvimento
 $ yarn start
 
+# O servidor do front-end inciará na porta:3000 - acesse <http://localhost:3000>
 ```
 # 🎲 Rodando o Back End
 ```bash
@@ -40,7 +41,6 @@ $ yarn
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
 
-# O servidor do front-end inciará na porta:3000 - acesse <http://localhost:3000>
 # O servidor do back-end inciará na porta:3333 - acesse <http://localhost:3333>
 
 ```

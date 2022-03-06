@@ -31,6 +31,7 @@ const Dashboard: React.FC = () => {
       });
 
       alert('Saída Registrada com Sucesso!');
+      document.location.reload();
     } catch {
       alert('Ops parece que algo deu errado!');
     }
@@ -38,11 +39,9 @@ const Dashboard: React.FC = () => {
   return (
     <Container>
       <DataUser />
-
       <Title>
         <h1> Horário de Entrada </h1>
       </Title>
-
       <Input>
         <input
           type={'number'}
@@ -85,8 +84,8 @@ const Dashboard: React.FC = () => {
       <Link to="/dashboard">
         <button onClick={handleExit}> Registrar</button>
       </Link>
+      <TotalHours/>
 
-      <TotalHours />
     </Container>
   );
 };

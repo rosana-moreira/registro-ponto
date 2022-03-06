@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background-color: #fff;
-  width: 800px;
+  width: 100%;
   border-radius: 15px;
   height: 100vh;
   display: flex;
@@ -25,11 +25,6 @@ export const Container = styled.div`
   }
   button:hover {
     transform: scale(1.05);
-  }
-  span {
-    font-size: 14px;
-    color: #384252;
-    padding-bottom: 50px;
   }
 `;
 export const Title = styled.div`

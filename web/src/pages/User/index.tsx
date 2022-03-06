@@ -23,15 +23,20 @@ const User: React.FC = () => {
   return (
     <Container>
       <Title>
-        <h1>Cadastro de Usuario</h1>
+        <h1>Cadastro de Usuário</h1>
       </Title>
       <Input>
+
         <input
+
           name="name"
           placeholder="Digite seu nome..."
           value={name}
           onChange={e => setName(e.target.value)}
+
+
         />
+
       </Input>
       <Input>
         <input
@@ -40,11 +45,13 @@ const User: React.FC = () => {
           value={number}
           onChange={e => setNumber(e.target.value)}
         />
+
       </Input>
 
       <Link to="/dashboard">
         <button onClick={handle}> Cadastrar</button>
       </Link>
+
     </Container>
   );
 };
